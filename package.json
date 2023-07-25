@@ -1,0 +1,30 @@
+{
+  "name": "user-login-system",
+  "version": "1.0.0",
+  "description": "Sistema de usuarios básico",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js | ./node_modules/.bin/pino-pretty --translateTime --colorize",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximocanedo/user-login-system.git"
+  },
+  "author": "Máximo Canedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximocanedo/user-login-system/issues"
+  },
+  "homepage": "https://github.com/maximocanedo/user-login-system#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}

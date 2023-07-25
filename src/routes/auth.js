@@ -1,0 +1,10 @@
+"use strict";
+const express = require("express");
+const router = express.Router();
+const temp = (req, res) => {};
+router.post("/signup", temp);
+router.post("/login", temp);
+router.post("/logout", temp);
+router.post("/accessToken", temp);
+router.post("/refreshToken", temp);
+module.exports = router;
